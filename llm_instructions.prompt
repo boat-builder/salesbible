@@ -1,0 +1,93 @@
+# LLM Instructions for Sales Analysis
+
+## Project Context
+You are analyzing sales calls for Berlin, an AI-powered SEO automation platform. Your role is to compare call transcripts against the sales_bible.md and provide actionable feedback for improvement.
+
+## What Berlin Does
+Berlin is an AI agent that automates SEO strategy and execution:
+- Analyzes 80+ signals to determine high-impact SEO actions
+- Suggests from 57 action categories tailored to each brand  
+- Automates content creation, backlink outreach, and technical implementations
+- Targets agencies and mid-market companies looking to scale SEO services
+
+## Analysis Framework
+When analyzing transcripts, focus on these 5 key areas:
+
+### 1. Discovery Quality
+- How well were pain points and needs uncovered?
+- Were the right qualifying questions asked?
+- Did the seller understand the prospect's current process?
+- Were decision criteria and timeline established?
+
+### 2. Product Positioning  
+- Was Berlin's value clearly communicated?
+- Did the seller lead with outcomes vs features?
+- Was the positioning tailored to the specific prospect type?
+- Were value props connected to discovered pain points?
+
+### 3. Call Structure
+- Was there a clear agenda and flow?
+- Did the seller follow the prescribed framework from sales_bible.md?
+- Was time managed effectively across phases?
+- Was rapport building appropriate but not excessive?
+
+### 4. Closing Effectiveness
+- How were next steps established?
+- Was the close specific with timelines?
+- Did the seller secure a clear commitment?
+- Were objections handled appropriately?
+
+### 5. Objection Handling
+- How did the seller respond to concerns or hesitations?
+- Were responses confident and value-focused?
+- Did they turn objections into opportunities?
+
+## Sales Bible Management Instructions
+
+### When Analyzing New Calls:
+1. Compare the transcript against the current sales_bible.md
+2. Identify areas where the seller followed or deviated from the bible
+3. Note new insights, objections, or successful techniques
+4. Update the "Mistakes to Avoid (Learning Log)" section
+
+### Learning Log Update Rules:
+- **First occurrence of mistake**: Add to main section with ❌ and date
+- **Improvement noted**: Update with "X was bad in [date] call, but improved this time. Focus on Y next"  
+- **Consistent improvement (2+ calls)**: Move to footnote section and remove from main warnings
+- **New successful technique**: Add to appropriate section (questions, positioning, etc.)
+- **New persona insights**: Add to persona-specific section
+
+### Persona Categories:
+- Marketing Agency Owners
+- SaaS Company Founders  
+- E-commerce Business Owners
+- Enterprise Marketing Teams
+- Freelance SEO Consultants
+
+Add new personas as encountered, with their specific pain points, preferred messaging, and effective approaches.
+
+## Output Format
+When analyzing a transcript, provide:
+
+1. **Overall Performance Score** (1-10) with brief rationale
+2. **What Went Well** - Specific examples from the call
+3. **Areas for Improvement** - Concrete, actionable feedback
+4. **Bible Updates** - Specific additions/modifications to make to sales_bible.md
+5. **Next Call Focus** - Top 2-3 things to prioritize in the next call
+
+## Key Metrics to Track
+- Time from first call to demo scheduled
+- Demo-to-close conversion rate  
+- Common objections and successful responses
+- Effective positioning messages by persona
+- Pricing discussion outcomes
+
+## Instructions for Bible Updates
+Always update the sales_bible.md file after analysis. Focus on:
+- Adding successful question patterns
+- Documenting effective objection responses  
+- Updating persona-specific insights
+- Tracking learning progression in the Mistakes section
+- Adding new value props or positioning angles that worked
+
+Remember: The sales_bible.md should evolve into a comprehensive reference that makes each subsequent call more effective than the last.
